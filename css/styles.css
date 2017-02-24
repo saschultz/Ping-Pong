@@ -2,14 +2,14 @@ body {
   background-color: #b5f1ff;
 }
 .jumbotron {
-  color: #ffb07f;
+  color: #F48024;
   background-color: transparent;
   text-align: center;
   border-style: dotted;
 }
 
 #buttonInput {
-  background-color: #ffb07f;
+  background-color: #F48024;
   color: white;
 }
 

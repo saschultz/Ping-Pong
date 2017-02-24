@@ -2,7 +2,7 @@
 var numberToRange = ""
 var output = ""
 var resultNumber = ""
-var newOutput = ""
+var newOutput = output;
 var numThree = ""
 
 var rangeStringNumber = function(numberToRange) {
@@ -19,7 +19,7 @@ var rangeStringNumber = function(numberToRange) {
     } else if (numberToRange % 15 === 0) {
         alert("ping-pong");
     } else {
-        // return newOutput;
+        return newOutput;
     }
 };
 
@@ -29,7 +29,6 @@ $(document).ready(function() {
     event.preventDefault();
     numberToRange = parseInt($("#numberInput").val());
     output = rangeStringNumber(numberToRange);
-        // console.log(numberToRange);
     $("#result").append("<li>" + newOutput + "</li>");
   });
 });
