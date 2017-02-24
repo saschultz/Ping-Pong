@@ -1,31 +1,15 @@
 //Back-end logic:
-
 var numberToRange = ""
 var output = ""
-var resultNumber = ""
+var resultNumber = [""]
 
 var rangeStringNumber = function(numberToRange) {
   for (var i = 1; i <= numberToRange; i ++) {
-    var result = 0;
-    var resultNumber = (result += i);
-    resultNumber.split();
+    resultNumber = (output += i);
     console.log(resultNumber);
-
   }
-return resultNumber;
+return (resultNumber);
 };
-
-// for (numberToRange = 2; numberToRange <= Infinity; numberToRange++)
-//   ("numberToRange" + "numberToRange" + "<br>");
-//
-//
-// if (numberToRange <= 0) {
-//   return numberToRange;
-// } else if (numberToRange < Infinity) {
-//   var returnRange = numberToRange + "00";
-//   return returnRange;
-//   console.log(returnRange);
-// }
 
 
 //Front-end logic:
