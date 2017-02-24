@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Ping-Pong (With Numbers)</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="jumbotron">Let's Play Ping-Pong</h1>
+      <h3>How To Play:</h3>
+      <p>Ping-Pong will count up to the number that you enter, with the following twists:</p>
+        <ul>
+          <li>Numbers divisible by 3 will return as "ping"</li>
+          <li>Numbers divisible by 5 will return as "pong"</li>
+          <li>Numbers divisible by 15 will return as "pingpong"</li>
+        </ul>
+      <p>Have fun!</p>
+    <form id="formOne" class="form-group">
+      <label for="numberInput" id="formText">Enter Your Number:</label>
+      <input id="numberInput" class="form-control" type="number">
+      <button class="btn btn-default" type="submit" id="buttonInput">Ping-Pong!</button>
+    </form>
+    <div id="result">
+    </div>
+    </div>
+  </body>
+</html>
