@@ -1,17 +1,16 @@
 //Back-end logic:
-// var output = "";
-// numberToRange = "";
-// userInput = "";
-// var infiniteNum = numberToRange.POSITIVE_INFINITY;
-// console.log(infiniteNum);
 
+var numberToRange = ""
+var output = ""
+var resultNumber = ""
 
 var rangeStringNumber = function(numberToRange) {
   for (var i = 1; i <= numberToRange; i ++) {
-    var newVar = (result += i).slice();
-    // return newVar;
-    console.log(newVar);
+    var resultNumber = (result += i);
+
+    console.log(resultNumber);
   }
+  return resultNumber;
 };
 
 // for (numberToRange = 2; numberToRange <= Infinity; numberToRange++)
@@ -31,8 +30,8 @@ var rangeStringNumber = function(numberToRange) {
 $(document).ready(function() {
   $("#formOne").submit(function() {
     event.preventDefault();
-    var numberToRange = $("#numberInput").val();
-    var output = rangeStringNumber(numberToRange);
+    numberToRange = $("#numberInput").val();
+    output = rangeStringNumber(numberToRange);
         // console.log(numberToRange);
     $("#result").text(output);
 
