@@ -1,0 +1,19 @@
+body {
+  background-color: #b5f1ff;
+}
+.jumbotron {
+  color: #ffb07f;
+  background-color: transparent;
+  text-align: center;
+  border-style: dotted;
+}
+
+#buttonInput {
+  background-color: #ffb07f;
+  color: white;
+}
+
+#numberInput {
+  opacity: .95;
+  width: 250px;
+}

@@ -19,7 +19,7 @@ var rangeStringNumber = function(numberToRange) {
     } else if (numberToRange % 15 === 0) {
         alert("ping-pong");
     } else {
-        return newOutput;
+        // return newOutput;
     }
 };
 
@@ -30,6 +30,6 @@ $(document).ready(function() {
     numberToRange = parseInt($("#numberInput").val());
     output = rangeStringNumber(numberToRange);
         // console.log(numberToRange);
-    $("#result").text(newOutput);
+    $("#result").append("<li>" + newOutput + "</li>");
   });
 });
