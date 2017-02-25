@@ -31,7 +31,7 @@ A game of ping pong that you play with numbers! When the user enters a number, t
 
 ## Known Bugs
 
-NEED TO UPDATE!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+There are a few major things that the program is not running properly. The program does not yet replace the specified numbers will the corresponding words; ping, pong, or ping-pong. I believe the first issue to address (in order resolve the word replacement issue) would be how the .split() method is being used. Currently, the string is separated into it's individual elements, but successfully preforming an action on a specified element within the string has not been executed. In addition, the if/else if statements will need to be restructured according after correctly splitting the string. I do not believe that the .replace() method is being executed properly either. The last two bugs to address would be in the event that the user enters 0, and how the program should respond as this cannot be counted in a range, and adding the functionality for the user to be able to see new results from the program over and over again without having to refresh the page.
 
 ## Support and contact details
 

@@ -8,7 +8,6 @@ var rangeStringNumber = function(numberToRange) {
   for (var i = 1; i <= numberToRange; i ++) {
     resultNumber = (output += i);
     newOutput = output.split([]);
-
     } if (numberToRange % 3 === 0) {
         // numberToRange.replace("ping");
     } else if (numberToRange % 5 === 0) {
