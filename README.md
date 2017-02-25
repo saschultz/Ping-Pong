@@ -1,12 +1,12 @@
 # Ping Pong
 
-#### Play ping-pong withh numbers, 2.24.17
+#### Play Ping-Pong (with numbers), February 24th, 2017
 
 #### By Sara Schultz
 
 ## Description
 
-A game of ping pong with numbers! When the user enters a number, the program will return it as a range starting from 1 counting up to the number that the user inputted. When the range is displayed; numbers divisible by 3 will be replaced with the word "ping", numbers divisible by 5 will be replaced with the word "pong", and numbers divisible by 15 will be replaced with the words "ping-pong".
+A game of ping pong that you play with numbers! When the user enters a number, the program will return it as a range starting from 1 counting up to the number that the user inputted. When the range is displayed; numbers divisible by 3 will be replaced with the word "ping", numbers divisible by 5 will be replaced with the word "pong", and numbers divisible by 15 will be replaced with the words "ping-pong".
 
 ## Specifications
 | Behavior | Input | Output |
@@ -31,7 +31,7 @@ A game of ping pong with numbers! When the user enters a number, the program wil
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+NEED TO UPDATE!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ## Support and contact details
 
